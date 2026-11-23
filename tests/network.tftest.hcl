@@ -6,7 +6,7 @@ run "builds_network" {
   variables {
     name                = "vnet-tflab-test"
     resource_group_name = "rg-tflab-test"
-    location            = "westeurope"
+    location            = "uksouth"
     address_space       = ["10.42.0.0/16"]
     tags                = { purpose = "training" }
     subnets = {
