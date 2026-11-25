@@ -1,4 +1,4 @@
-# Network module v1.0.0
+# Network module v1.1.0
 
 Creates one VNet and one standalone subnet per `subnets` map entry.
 Never add inline `subnet` blocks to this VNet: mixing inline and standalone
